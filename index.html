@@ -1,0 +1,281 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Ringball: Aim & Shoot</title>
+  <link rel="icon" type="image/png" sizes="64x64" href="favicon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card-bg: #111827;
+      --text: #e2e8f0;
+      --text-muted: #94a3b8;
+      --primary: #00e5ff;
+      --border: #1e293b;
+      --link: #38bdf8;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      margin: 0;
+      padding: 24px 16px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 36px 32px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 20px;
+      margin-bottom: 28px;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .brand-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 229, 255, 0.25);
+    }
+    h1 {
+      font-size: 1.65rem;
+      margin: 0;
+      color: #fff;
+    }
+    .subtitle {
+      color: var(--primary);
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-top: 4px;
+    }
+    .lang-toggle {
+      display: flex;
+      background: #1e293b;
+      padding: 4px;
+      border-radius: 20px;
+      border: 1px solid #334155;
+    }
+    .lang-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      padding: 6px 14px;
+      border-radius: 16px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.85rem;
+      transition: all 0.2s ease;
+    }
+    .lang-btn.active {
+      background: var(--primary);
+      color: #0b0f19;
+    }
+    h2 {
+      font-size: 1.25rem;
+      color: #f8fafc;
+      margin-top: 28px;
+      margin-bottom: 12px;
+      border-left: 3px solid var(--primary);
+      padding-left: 10px;
+    }
+    p, li {
+      color: var(--text-muted);
+      font-size: 0.96rem;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .date-badge {
+      display: inline-block;
+      background: #1e293b;
+      color: #94a3b8;
+      font-size: 0.8rem;
+      padding: 4px 10px;
+      border-radius: 6px;
+      margin-bottom: 20px;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 0.85rem;
+      color: #64748b;
+    }
+    footer a {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px dotted #64748b;
+      transition: all 0.2s ease;
+    }
+    footer a:hover {
+      color: var(--primary);
+      border-bottom-color: var(--primary);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="brand">
+        <img src="favicon.png" alt="Ringball Icon" class="brand-icon" onerror="this.style.display='none'">
+        <div>
+          <h1 id="appTitle">Ringball: Aim & Shoot</h1>
+          <div class="subtitle" id="docType">Privacy Policy</div>
+        </div>
+      </div>
+      <div class="lang-toggle">
+        <button class="lang-btn active" id="btnEn" onclick="switchLang('en')">🇺🇸 English</button>
+        <button class="lang-btn" id="btnPt" onclick="switchLang('pt')">🇧🇷 Português</button>
+      </div>
+    </header>
+
+    <div class="date-badge" id="lastUpdated">Last updated: September 2026</div>
+
+    <!-- ENGLISH VERSION -->
+    <div id="contentEn">
+      <p>This Privacy Policy applies to the mobile game <strong>Ringball: Aim & Shoot</strong> (the "Application"), developed by <strong><a href="https://alanmikeo.github.io" target="_blank" rel="noopener noreferrer">alanmikeo</a></strong> ("we", "us", or "our"). This page informs you of our policies regarding the collection, use, and disclosure of personal and technical data when you use our Application.</p>
+
+      <h2>1. Information Collection and Use</h2>
+      <p>The Application does not require user registration or account creation with personal identifiers (such as your full name, phone number, or physical address). We believe in privacy-friendly gaming experiences.</p>
+      <p>To provide core game features, cloud high-score leaderboards, and advertisement support, the Application may collect certain non-personally identifiable technical information:</p>
+      <ul>
+        <li><strong>Gameplay & Score Data:</strong> In-game scores, achievements, and gameplay session timestamps.</li>
+        <li><strong>Device Technical Information:</strong> Device manufacturer, hardware model, Android operating system version, and general network connectivity status (online/offline).</li>
+        <li><strong>App Performance & Crash Diagnostics:</strong> Crash stack traces and error logs to debug technical failures and optimize stability across various Android devices.</li>
+      </ul>
+
+      <h2>2. Third-Party Services and Advertisements</h2>
+      <p>The Application utilizes trusted third-party service providers that may collect information used to identify your device for analytics and advertising purposes in compliance with Google Play Developer Policies:</p>
+      <ul>
+        <li>
+          <strong>Google AdMob:</strong> We use Google AdMob to display banner and interstitial advertisements. AdMob may collect and process anonymous advertising identifiers (Google Advertising ID / GAID), approximate IP-based geolocation, and device interaction data to serve personalized or non-personalized ads according to user consent.
+          <br><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy & Ad Terms</a>
+        </li>
+        <li>
+          <strong>Supabase:</strong> We use Supabase as our secure backend infrastructure to store global high scores and anonymous game telemetry logs.
+          <br><a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">Supabase Privacy Policy</a>
+        </li>
+      </ul>
+
+      <h2>3. Children's Privacy (COPPA Compliance)</h2>
+      <p>Our Application does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13 years of age. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to take the necessary actions.</p>
+
+      <h2>4. Data Security</h2>
+      <p>We value your trust in using our Application. We implement standard, industry-accepted security practices (including encrypted HTTPS / SSL transmission) to protect any technical data transmitted between the Application and third-party servers. However, please remember that no method of transmission over the internet or electronic storage is 100% secure.</p>
+
+      <h2>5. Opt-Out and Advertising Controls</h2>
+      <p>You can reset your device's Advertising ID or opt out of interest-based ads at any time via your Android device settings: <em>Settings &rarr; Google &rarr; Ads &rarr; Reset Advertising ID or Delete Advertising ID</em>.</p>
+
+      <h2>6. Changes to This Privacy Policy</h2>
+      <p>We may update our Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date. You are advised to review this page periodically for any changes.</p>
+
+      <h2>7. Contact Us</h2>
+      <p>If you have any questions or suggestions about this Privacy Policy, please feel free to contact the developer at: <strong><a href="mailto:alanmikeo@proton.me">alanmikeo@proton.me</a></strong></p>
+    </div>
+
+    <!-- PORTUGUESE VERSION -->
+    <div id="contentPt" style="display: none;">
+      <p>Esta Política de Privacidade se aplica ao jogo mobile <strong>Ringball: Aim & Shoot</strong> (o "Aplicativo"), desenvolvido por <strong><a href="https://alanmikeo.github.io" target="_blank" rel="noopener noreferrer">alanmikeo</a></strong> ("nós" ou "nosso"). Esta página informa você sobre nossas diretrizes relativas à coleta, uso e divulgação de dados técnicos e de uso ao utilizar nosso Aplicativo.</p>
+
+      <h2>1. Coleta e Uso de Informações</h2>
+      <p>O Aplicativo não exige cadastro nem coleta de dados pessoais sensíveis (como nome completo, telefone ou endereço físico). Priorizamos uma experiência de jogo rápida e que respeita a privacidade do usuário.</p>
+      <p>Para fornecer funcionalidades essenciais, placares globais e exibição de anúncios, o Aplicativo pode coletar determinadas informações técnicas não identificáveis:</p>
+      <ul>
+        <li><strong>Dados de Partidas e Pontuações:</strong> Pontuação mais alta, recordes e duração das sessões de jogo.</li>
+        <li><strong>Informações Técnicas do Dispositivo:</strong> Modelo do aparelho, fabricante, versão do sistema operacional Android e estado de conexão de rede (online/offline).</li>
+        <li><strong>Diagnósticos e Relatórios de Erros:</strong> Registros técnicos anônimos de encerramentos inesperados (crashes) para identificar e corrigir falhas de desempenho.</li>
+      </ul>
+
+      <h2>2. Serviços de Terceiros e Publicidade</h2>
+      <p>O Aplicativo integra serviços de terceiros confiáveis que podem coletar dados utilizados para identificar o dispositivo para fins de análise e veiculação de anúncios, em total conformidade com as diretrizes do Google Play:</p>
+      <ul>
+        <li>
+          <strong>Google AdMob:</strong> Utilizamos o Google AdMob para exibir anúncios em formato de banner e tela cheia (intersticial). O AdMob pode processar identificadores anônimos de publicidade (Google Advertising ID), localização aproximada e dados de interação com anúncios.
+          <br><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Política de Privacidade do Google</a>
+        </li>
+        <li>
+          <strong>Supabase:</strong> Infraestrutura de nuvem segura utilizada para registrar recordes no placar e logs de telemetria técnica.
+          <br><a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">Política de Privacidade da Supabase</a>
+        </li>
+      </ul>
+
+      <h2>3. Privacidade de Menores (COPPA / LGPD)</h2>
+      <p>Nosso Aplicativo não é direcionado intencionalmente a crianças menores de 13 anos e não coleta informações pessoais identificáveis de crianças. Caso você seja pai, mãe ou responsável legal e tome conhecimento de que seu filho nos forneceu dados pessoais, entre em contato conosco para que possamos adotar as medidas cabíveis imediatamente.</p>
+
+      <h2>4. Segurança dos Dados</h2>
+      <p>Empregamos protocolos de segurança padrão de mercado (incluindo criptografia em trânsito HTTPS / SSL) para proteger os dados técnicos transmitidos entre o jogo e os servidores. No entanto, nenhum método de transmissão pela internet é 100% impenetrável.</p>
+
+      <h2>5. Controle de Anúncios e Desativação</h2>
+      <p>Você pode redefinir o identificador de publicidade do seu aparelho ou desativar anúncios personalizados a qualquer momento nas configurações do seu Android: <em>Configurações &rarr; Google &rarr; Anúncios &rarr; Redefinir ID de publicidade ou Excluir ID de publicidade</em>.</p>
+
+      <h2>6. Alterações a Esta Política de Privacidade</h2>
+      <p>Podemos atualizar nossa Política de Privacidade periodicamente. Quaisquer modificações entrarão em vigor imediatamente após a publicação nesta página com a data revisada.</p>
+
+      <h2>7. Fale Conosco</h2>
+      <p>Caso tenha dúvidas ou sugestões sobre esta Política de Privacidade, entre em contato com o desenvolvedor pelo e-mail: <strong><a href="mailto:alanmikeo@proton.me">alanmikeo@proton.me</a></strong></p>
+    </div>
+
+    <footer>
+      &copy; 2026 <a href="https://alanmikeo.github.io" target="_blank" rel="noopener noreferrer">alanmikeo</a> &bull; Ringball: Aim & Shoot &bull; All rights reserved.
+    </footer>
+  </div>
+
+  <script>
+    function switchLang(lang) {
+      const enDiv = document.getElementById('contentEn');
+      const ptDiv = document.getElementById('contentPt');
+      const btnEn = document.getElementById('btnEn');
+      const btnPt = document.getElementById('btnPt');
+      const docType = document.getElementById('docType');
+      const lastUpdated = document.getElementById('lastUpdated');
+
+      if (lang === 'pt') {
+        enDiv.style.display = 'none';
+        ptDiv.style.display = 'block';
+        btnEn.classList.remove('active');
+        btnPt.classList.add('active');
+        docType.textContent = 'Política de Privacidade';
+        lastUpdated.textContent = 'Última atualização: Setembro de 2026';
+        document.documentElement.lang = 'pt-BR';
+      } else {
+        ptDiv.style.display = 'none';
+        enDiv.style.display = 'block';
+        btnPt.classList.remove('active');
+        btnEn.classList.add('active');
+        docType.textContent = 'Privacy Policy';
+        lastUpdated.textContent = 'Last updated: September 2026';
+        document.documentElement.lang = 'en';
+      }
+    }
+  </script>
+</body>
+</html>
